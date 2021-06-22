@@ -1,1 +1,2 @@
-# Harvard-CS50-Projects
+# Hi
+This repository for Harvard course "CS50's Web Programming with Python and JavaScript" 
