@@ -1,0 +1,12 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}
+    {{ entryTitle }}
+{% endblock %}
+
+{% block body %} 
+
+    {{ entry|safe }} <br><br>
+    <a class="btn btn-primary btn-lg " href="/wiki/{{ entryTitle }}/edit" role="button" width= "100">Edit   </a>
+   
+{% endblock %}
