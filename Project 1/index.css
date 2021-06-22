@@ -1,0 +1,154 @@
+
+.container{
+  text-align:center;
+  margin-top:250px;
+}
+.header{
+    text-align: right;
+    
+}
+
+.gmail{
+   margin-right: 10px;
+}
+.images{
+  margin-right: 7px;
+}
+.advancedSearch{
+  margin-right: 6px;
+}
+.sign{
+  margin-right: 3px;
+  margin-top: 7px;
+}
+
+.center{
+  text-align: center;
+  margin-top: -150px;
+} 
+  img{
+      height:92px;
+      width:272px;
+      margin-top:-1px;
+      margin-left: 30px;
+  }
+.bar{
+  width:550px;
+    margin: 0 auto;
+    border-radius: 20px;
+}  
+.text{
+  width: 550px;
+  padding-top:20px; 
+  font-size:16px;
+  border-color: gray;;
+
+  padding-top: 15px;
+  margin-top:-1px;
+  margin-right: 1px;
+  border-radius: 22px;
+  } 
+      
+   
+   .icon{
+     margin-top: -38px;
+     margin-left: 490px;
+  } 
+
+  .se{
+   
+    color: rgba(39, 39, 39, 0.507);
+}
+.mic{
+    color: rgba(39, 39, 39, 0.507);
+   
+  }
+
+  #google_search{
+    color: black;
+    background: rgba(230, 230, 230, 0.801);
+   position: relative;
+   top: 100px;
+   }
+   
+   #lucky{
+     color: black;
+    background: rgba(230, 230, 230, 0.801);
+    position: relative;
+    top: 100px;
+   }
+   
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(230, 230, 230);
+    color: black;
+    
+}
+
+#ab{
+  
+  position: fixed;
+  left:50px;
+  font-size:15px;
+  bottom:0px;
+  }
+  
+  #ad{
+  position: fixed;
+  left:120px;
+  font-size:15px;
+  bottom:0px;
+    
+  }
+   #b{
+    position: fixed;
+    left:220px;
+    bottom: -1px;
+    font-size:15px;
+  } 
+  #p{
+    position:fixed;
+    right:250px;
+    font-size:15px;
+   
+  }
+  #t{
+    position:fixed;
+    right:180px;
+   
+  }
+  #s{
+    position: static;
+    right: 200px;
+    
+    
+  }   
+  a:link {
+    color:  rgb(96, 96, 97);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(96, 96, 97);
+    background-color: transparent;
+    text-decoration: none;
+  }
+    a:hover {
+      color: rgb(96, 96, 97);
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    a:active {
+      color:  rgb(96, 96, 97);
+      background-color: transparent;
+      text-decoration: underline;
+    } 
+
+    
+  
+       
+
+      
