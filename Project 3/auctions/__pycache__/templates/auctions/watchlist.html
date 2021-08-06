@@ -1,0 +1,41 @@
+{% extends 'auctions/layout.html' %}
+
+{% block body %}
+<main class="watchlist">
+  <section class="watchlist-title">
+    <h5>Hello {{ user }}.</h5>
+    <h2>Watchlist</h2>
+  </section>
+
+  <section class="container">
+    <section class="cards">
+      {% for watchlist in user_watchlist %}
+      <a class="nav-link list" href="{% url 'auction' watchlist.auction.id %}">
+        <section class="card">
+          <section class="card__img">
+            {% if watchlist.auction.product.url %}
+            <img src="{{ watchlist.auction.product.url.url }}" alt=" {{ watchlist.auction.product.title }}"
+              width="150px">
+            {% endif %}
+          </section>
+          <section class="card__info">
+            <h5 class="card__title">{{ watchlist.auction.product.title }}</h5>
+            {% if watchlist.auction.product.description|length > 25 %}
+            <p class="card__content"><b>Description: </b>{{ watchlist.auction.product.description|slice:":25" }}...</p>
+            {% else %}
+            <p class="card__content"><b>Description: </b>{{ watchlist.auction.product.description }}</p>
+            {% endif %}
+            <h4 class="card__price">£{{ watchlist.auction.product.price }}</h4>
+            {% if not watchlist.auction.active %}
+            <p class="card__close">The auction is closed.</p>
+            {% endif %}
+          </section>
+        </section>
+      </a>
+      {% empty %}
+      <p>No watchlist.</p>
+      {% endfor %}
+    </section>
+  </section>
+</main>
+{% endblock %}
