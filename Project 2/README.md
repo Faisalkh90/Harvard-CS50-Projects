@@ -1,7 +1,7 @@
 # Wiki encyclopedia 
 By using Django
 
-The specification:
+##Specification:
 
 1-**Entry Page**: Visiting /wiki/TITLE, where TITLE is the title of an encyclopedia entry, should render a page that displays the contents of that encyclopedia entry.
 If an entry is requested that does not exist, the user should be presented with an error page
