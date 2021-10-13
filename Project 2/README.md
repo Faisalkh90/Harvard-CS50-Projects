@@ -1,5 +1,5 @@
 # Wiki encyclopedia 
-# By using Django
+
 
 ## Specification:
 
