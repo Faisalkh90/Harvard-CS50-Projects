@@ -11,7 +11,7 @@ The course includes many and useful topics:
 
 ***Django***
 
-***SQL, Models, and Migrations**
+***SQL, Models, and Migrations***
 
 ***JavaScript***
 
