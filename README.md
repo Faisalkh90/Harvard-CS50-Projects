@@ -3,22 +3,22 @@ This repository for Harvard course "CS50's Web Programming with Python and JavaS
 
 The course includes many and useful topics:
 ***
-HTML, CSS
+***HTML, CSS***
 
-Git
+***Git***
 
-Python
+***Python***
 
-Django
+***Django***
 
-SQL, Models, and Migrations
+***SQL, Models, and Migrations**
 
-JavaScript
+***JavaScript***
 
-User Interfaces
+***User Interfaces***
 
-Testing, CI/CD
+***Testing, CI/CD***
 
-Scalability and Security
+***Scalability and Security***
 
 ***
