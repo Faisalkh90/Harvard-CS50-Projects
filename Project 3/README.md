@@ -1,4 +1,4 @@
-Specification : 
+**Specification** : 
 
 Send Mail: When a user submits the email composition form, add JavaScript code to actually send the email.
 
